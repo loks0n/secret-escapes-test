@@ -1,0 +1,4 @@
+{
+  "cssvar.files": ["./src/styles/index.css", "./src/styles/pico.css"],
+  "cssvar.extensions": ["css", "jsx", "tsx"]
+}

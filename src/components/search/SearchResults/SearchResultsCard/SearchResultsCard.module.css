@@ -1,0 +1,13 @@
+.card {
+  display: grid;
+
+  grid-template-rows: auto 1fr;
+
+  height: 100%;
+  margin: 0;
+  padding: 1em;
+}
+
+.card > hgroup {
+  margin: 0;
+}

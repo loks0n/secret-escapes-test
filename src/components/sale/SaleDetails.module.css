@@ -1,0 +1,21 @@
+.responsiveColumnDetails {
+  display: grid;
+  place-items: center;
+  gap: 1em;
+}
+
+.responsiveColumnDetails > article {
+  margin: 0;
+  padding: 2em;
+  place-self: stretch;
+}
+
+.responsiveColumnDetails > figure {
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .responsiveColumnDetails {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

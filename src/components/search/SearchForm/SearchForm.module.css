@@ -1,0 +1,5 @@
+.searchForm {
+  display: grid;
+  gap: 0.25em;
+  grid-template-columns: 1fr auto;
+}
